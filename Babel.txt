@@ -1,0 +1,7 @@
+node_modules/.bin/babel
+node_modules/.bin/babel ./src/main.js -o ./public/bundle.js, aqui é feita uma conversão para que os seus arquivos escritos no ES6, sejam entendidos por qualquer navegador
+node_modules/.bin/babel ./src/main.js -o ./public/bundle.js -w (watch funciona como um live server da sua aplicação)
+
+
+desabilitando scripts no sistema e mudando permissões
+https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema
